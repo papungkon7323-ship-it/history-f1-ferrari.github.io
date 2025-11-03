@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ประวัตินักขับ F1 ทีม Ferrari</title>
+  <meta name="description" content="เว็บไซต์สรุปประวัตินักขับ Formula 1 ของทีม Ferrari ในแบบเข้าใจง่ายสำหรับผู้เริ่มต้นทำเว็บ">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- =================== NAVBAR =================== -->
+  <header class="nav">
+    <div class="container nav__row">
+      <a href="#home" class="brand">Scuderia Ferrari • Drivers</a>
+      <button class="nav__toggle" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+      <nav class="nav__menu">
+        <a href="#home">หน้าแรก</a>
+        <a href="#about">เกี่ยวกับทีม</a>
+        <a href="#drivers">นักขับ</a>
+        <a href="#stats">สถิติ</a>
+        <a href="#contact">ติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =================== HERO =================== -->
+  <section id="home" class="hero">
+    <div class="container hero__content">
+      <h1>ประวัตินักขับ F1 ทีม <span class="accent">Ferrari</span></h1>
+      <p>รวมเรื่องราวและไฮไลต์ของนักขับระดับตำนานและยุคปัจจุบันของทีมม้าลำพอง ในรูปแบบเว็บง่ายๆ สำหรับส่งครู ✨</p>
+      <a class="btn" href="#drivers">เริ่มอ่านเลย</a>
+    </div>
+    <div class="hero__art">
+      <h2>Current driver</h2>
+      <p>Charles Leclerc</p>
+      <img src="images/car.avif" alt="Ferrari F1 car" />
+    </div>
+  </section>
+
+  <!-- =================== ABOUT =================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>เกี่ยวกับ Scuderia Ferrari</h2>
+      <p>
+        Scuderia Ferrari เป็นทีมแข่ง Formula 1 ที่มีประวัติศาสตร์ยาวนานและเป็นหนึ่งในสัญลักษณ์ของวงการมอเตอร์สปอร์ต
+        เว็บไซต์นี้ทำขึ้นเพื่อสรุปประวัตินักขับเด่นๆ ของทีม ตั้งแต่อดีตจนถึงปัจจุบัน
+        โดยเน้นอ่านง่าย เป็นภาษาบ้านๆ และเป็นตัวอย่างโครงสร้างเว็บไซต์สำหรับผู้เริ่มต้นทำเว็บ
+      </p>
+      <div class="about__grid">
+        <div class="card">
+          <h3>จุดเด่นของเว็บไซต์นี้</h3>
+          <ul>
+            <li>ใช้เพียง HTML + CSS + JavaScript พื้นฐาน</li>
+            <li>โครงสร้างไฟล์ชัดเจน แยกหน้า (ส่วน) เป็น Section</li>
+            <li>รองรับมือถือ (Responsive) อัตโนมัติ</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>สิ่งที่ผู้จัดทำเรียนรู้</h3>
+          <ul>
+            <li>พื้นฐานโครงสร้างหน้าเว็บ</li>
+            <li>การจัดวาง Layout ด้วย CSS Grid/Flex</li>
+            <li>เมนูมือถือ + ฟอร์มติดต่อแบบง่าย</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== DRIVERS =================== -->
+  <section id="drivers" class="section section--alt">
+    <div class="container">
+      <h2>นักขับเด่นของ Ferrari</h2>
+      <div class="grid-3">
+        <!-- Driver card template -->
+        <article class="driver card">
+          <img src="images/Michael-Schumacher.webp" alt="Michael Schumacher placeholder" class="driver__img" />
+          <h3>Michael Schumacher</h3>
+          <p class="driver__meta">เยอรมนี • แข่งกับ Ferrari: 1996–2006</p>
+          <p>นับตั้งแต่การแข่งขัน Formula 1 World Drivers' Championship เริ่มต้นขึ้นในปี 1950 มีนักแข่ง 34 คนคว้าแชมป์มาแล้ว โดย 16 คนคว้าแชมป์มากกว่า 1 รายการ ในบรรดานักแข่งที่คว้าแชมป์ได้มากที่สุด ฮวน มานูเอล ฟางจิโอ ถือเป็นนักแข่งที่ประสบความสำเร็จมากที่สุดตลอดกาล สถิติการคว้าแชมป์ 5 สมัยของเขานั้นยาวนานถึง 5 ทศวรรษ จนกระทั่งถูกแซงหน้าโดยนักแข่งที่ประสบความสำเร็จสูงสุดในประวัติศาสตร์วงการ มิชาเอล ชูมัคเกอร์ แชมป์ 7 สมัย ยังครองสถิติการทำคะแนนได้เกือบทุกรายการในหนังสือด้วยคะแนนที่ทิ้งห่างคู่แข่งอย่างมาก แม้ว่าบางครั้งจริยธรรมของเขาจะถูกตั้งคำถาม เช่นเดียวกับการตัดสินใจกลับมาลงแข่งอีกครั้งหลังจากแขวนสตั๊ด แต่ความโดดเด่นของเขาในช่วงพีคนั้นเป็นสิ่งที่ไม่อาจปฏิเสธได้</p>
+        </article>
+
+        <article class="driver card">
+          <img src="images/niki.avif" alt="Niki Lauda placeholder" class="driver__img" />
+          <h3>Niki Lauda</h3>
+          <p class="driver__meta">ออสเตรีย • แข่งกับ Ferrari: 1974–1977</p>
+          <p>Niki Lauda เกิดและเติบโตที่กรุงเวียนนาเป็นหลานชายของฮันส์ ลาวดา นักอุตสาหกรรมท้องถิ่น เขา เริ่มต้นอาชีพด้วยการแข่งรถโกคาร์ท ก่อน จะก้าวเข้าสู่วงการฟอร์มูล่าวันและ การแข่งรถ แบบไพรเวเตอร์ในช่วงปลายทศวรรษ 1960 หลังจากที่อาชีพของเขาต้องสะดุดลง ลาวดาได้กู้ยืม เงินจากธนาคารจำนวน 30,000 ปอนด์และได้เข้าร่วมการแข่งขันฟอร์มูล่าวันยุโรปกับ ทีม Marchในปี 1971และได้ลงแข่งขันฟอร์มูล่าวันครั้งแรกกับทีมในรายการออสเตรียน กรังด์ปรีซ์เขาได้รับการเลื่อนตำแหน่งให้ลงแข่งแบบเต็มเวลาในปี 1972จบฤดูกาลด้วย การจบการแข่งขัน แบบไม่มีการจัดประเภทรวมถึงคว้าแชมป์รายการบริติช ฟอร์มูล่าวัน ลาวดาย้ายไปBRMใน ฤดูกาล 1973ทำคะแนนได้เป็นครั้งแรกในเบลเยียมและได้เข้าร่วมทีมเฟอร์รารีในปีถัดมาเคียงข้างเคลย์ เรกาซโซนีลาวดาขึ้นโพเดียมครั้งแรกในการแข่งขันครั้งแรกกับเฟอร์รารี และคว้าชัยชนะครั้งแรกในอีกสามการแข่งขันต่อมาในรายการสแปนิช กรังด์ปรีซ์ หลังจากชนะเลิศการแข่งขันกรังด์ปรีซ์ 5 ครั้งใน ฤดูกาล ปี 1975เลาดาก็คว้าแชมป์รายการแรกได้สำเร็จ และกลายเป็นแชมป์โลกนักขับที่ใช้เครื่องยนต์เฟอร์รารี คนแรกในรอบ 11ปี</p>
+        </article>
+
+        <article class="driver card">
+          <img src="images/Kimi-Raikkonen.jpg" alt="Kimi Raikkonen placeholder" class="driver__img" />
+          <h3>Kimi Räikkönen</h3>
+          <p class="driver__meta">ฟินแลนด์ • แข่งกับ Ferrari: 2007–2009, 2014–2018</p>
+          <p>ก้าวเข้าสู่วงการด้วยความเร็วรอบเครื่องยนต์ที่สั้นที่สุดบนสี่ล้อ นักแข่งหน้าใหม่ผู้ไม่รู้จักผู้นี้ โผล่มาจากไหนไม่รู้และแทบไม่พูดอะไรเลย ได้พิสูจน์ให้เห็นในทันทีว่าเขารู้ดีว่ากำลังทำอะไรอยู่ นั่นคือการขับรถสูตรหนึ่งให้เร็วที่สุดเท่าที่จะทำได้ รถคันนี้ไม่อาจตามทันพรสวรรค์ของเขาได้เสมอไป และคิมิ "ไอซ์แมน" ไรโคเนนก็ต้องใช้เวลาถึงเจ็ดฤดูกาลกว่าจะได้เป็นแชมป์โลก ด้วยความที่ขึ้นชื่อเรื่องความไร้ชีวิตชีวาและไม่ค่อยสื่อสาร สีหน้านิ่งเฉยของนักซิ่งผู้เงียบขรึมผู้นี้กลับบดบังความลึกซึ้งที่ซ่อนอยู่ในหนึ่งในตัวละครที่มีเอกลักษณ์เฉพาะตัวที่สุด และเป็นที่นิยมมากที่สุดในประวัติศาสตร์ของวงการ</p>
+        </article>
+
+        <article class="driver card">
+          <img src="images/channels4_profile.jpg" alt="Charles Leclerc placeholder" class="driver__img" />
+          <h3>Charles Leclerc</h3>
+          <p class="driver__meta">โมนาโก • แข่งกับ Ferrari: 2019–ปัจจุบัน</p>
+          <p>เลอแคลร์เกิดที่โมนาโก ซึ่งเป็นเมืองริมทะเลเมดิเตอร์เรเนียน และมาถึง F1 ด้วยความคาดหวังที่สูงมากแทบจะไม่มีใครเทียบได้ตลอดเส้นทางสู่แชมป์ GP3 และ Formula 2 เขาโชว์ฝีมืออันน่าทึ่งมากมาย ตั้งแต่ตำแหน่งโพลโพซิชันอันร้อนแรง ชัยชนะอันน่าเกรงขาม แม้กระทั่งตอนที่รถของเขาเกิดไฟไหม้สองครั้งที่ซิลเวอร์สโตน ไปจนถึงความสามารถในการฝ่าวงล้อมคู่แข่ง การคว้าแชมป์สองสมัยติดต่อกันยังสอนให้เลอแคลร์รู้จักรับมือกับแรงกดดัน ซึ่งเป็นอีกหนึ่งเครื่องมือสำคัญในการแข่งขัน Formula 1ในปี 2018 เลอแคลร์ได้แสดงให้เห็นถึงความเร็วอันน่าทึ่งในวันเสาร์ และความสามารถอันยอดเยี่ยมในการแข่งขันในวันอาทิตย์ โดยพา Sauber ของเขาก้าวข้ามขีดจำกัด และได้ที่นั่งในการแข่งขันที่เฟอร์รารีซึ่งเงินก็ซื้อไม่ได้สำหรับปี 2019 โดยก้าวเข้ามาสวมบทบาทเป็นแชมป์โลกคนสุดท้ายของ Scuderia อย่าง คิมิ ไรโคเนน</p>
+        </article>
+
+        <article class="driver card">
+          <img src="images/sainz-2023-portrait-2.avif" alt="Carlos Sainz placeholder" class="driver__img" />
+          <h3>Carlos Sainz</h3>
+          <p class="driver__meta">สเปน • แข่งกับ Ferrari: 2021–2024</p>
+          <p>Sainz เกิดที่กรุงมาดริดเป็นบุตรชายของCarlos Sainz แชมป์โลกแรลลี่ 2 สมัย จบการศึกษาจากการแข่งรถ โกคาร์ท สู่ การ แข่งขันรถสูตรหนึ่งระดับจู เนียร์ ในปี 2010 Sainz คว้าแชมป์ครั้งแรกที่Formula Renault NECใน ปี 2011กับKoiranenและได้รองแชมป์จากRobin Frijnsในการแข่งขันEurocupในปีนั้น ในปี 2012 Sainz ได้ลงแข่งขันBritish Formula 3 , Formula 3 Euro SeriesและFIA European Formula 3กับCarlin Sainz ได้เข้าร่วมGP3 SeriesกับArdenในปี 2013โดยจบอันดับที่ 10 ในฤดูกาลแรกของเขา จากนั้นเขาก็ประสบความสำเร็จในFormula Renault 3.5 Seriesและคว้าแชมป์ในปี 2014 กับDAMS</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== STATS =================== -->
+  <section id="stats" class="section">
+    <div class="container">
+      <h2>สถิติ & ไฮไลต์</h2>
+      <p>ส่วนนี้เป็นตารางตัวอย่างให้ฝึกทำตารางข้อมูลด้วย HTML + CSS (สามารถแก้ตัวเลข/ข้อมูลภายหลังได้)</p>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>นักขับ</th>
+              <th>สังกัดกับ Ferrari</th>
+              <th>ไฮไลต์</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Michael Schumacher</td>
+              <td>1996–2006</td>
+              <td>ครองความยิ่งใหญ่ยุค 2000s</td>
+            </tr>
+            <tr>
+              <td>Niki Lauda</td>
+              <td>1974–1977</td>
+              <td>แชมป์โลกหลายสมัย ยุคคลาสสิก</td>
+            </tr>
+            <tr>
+              <td>Kimi Räikkönen</td>
+              <td>2007–2009, 2014–2018</td>
+              <td>แชมป์โลก 2007</td>
+            </tr>
+            <tr>
+              <td>Charles Leclerc</td>
+              <td>2019–ปัจจุบัน</td>
+              <td>ดาวรุ่งพุ่งแรง ผลงานเด่นต่อเนื่อง</td>
+            </tr>
+            <tr>
+              <td>Carlos Sainz</td>
+              <td>2021–2024</td>
+              <td>คว้าชัยในยุคร่วมสมัย</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== CONTACT =================== -->
+  <section id="contact" class="section section--alt">
+    <div class="container">
+      <h2>ติดต่อผู้จัดทำ</h2>
+      <p>ฟอร์มนี้เป็นตัวอย่าง (ยังไม่เชื่อมฐานข้อมูล) กดส่งแล้วจะขึ้นข้อความขอบคุณ</p>
+      <form id="contactForm" class="form">
+        <label>
+          ชื่อ
+          <input type="text" name="name" placeholder="กรอกชื่อของคุณ" required />
+        </label>
+        <label>
+          อีเมล
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          ข้อความ
+          <textarea name="message" placeholder="พิมพ์ข้อความถึงผู้จัดทำ..." rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn">ส่งข้อความ</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>จัดทำเพื่อการศึกษา | เนื้อหาบางส่วนเป็นการสรุปอย่างย่อเพื่อใช้เป็นตัวอย่างโครงสร้างเว็บไซต์</p>
+      <p>จัดทำโดย นาย ปภังกร สิริไกร เลขที่1 ม.6/10</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
